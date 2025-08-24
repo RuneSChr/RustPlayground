@@ -1,0 +1,27 @@
+# Rust build artifacts
+/target/
+/Cargo.lock
+**/*.rs.bk
+
+# Rust coverage & profiling
+*.profraw
+*.profdata
+
+# IDE files (RustRover / JetBrains)
+.idea/
+*.iml
+
+# Logs & temp files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.swp
+
+# Environment/config
+.env
